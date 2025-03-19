@@ -4,37 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-<input class="search-box" type="text" placeholder="Search">
-<div class="video-box">
-    <div>
-        <img class="thumbnail" src="/Youtube-Project\Images\kya-tujhe.jpg">
+<div class="header">
+    <div class="header-left">
+        <img class="hamburger" src="icons\hamburger-menu.svg">   
+        <img class="youtube-logo" src="icons\655462698cf771fc41bd5f1a7e56fa3d0d54271de9fee055ac6c2b0592b32bdb_122x56.webp">     
     </div>
-    <div>
-        <div class="chan-pics">
-            <img class="profile-pic" src="/Youtube-Project\Channel  pics\Tseries.jpg">
+    <div class="header-middle">
+        <div class="search-box">
+            <input class="search" type="text" placeholder="Search">
         </div>
-        <div class="vid-details">
-            <p class="vid-title">Kya Tujhe Ab FULL VIDEO SONG|SANAM RE</p>
-            <p class="vid-author">T-Series</p>
-            <p class="vid-stats">26M views &#183; 9 years ago</p>
+        <div class="div-search">
+            <button class="search-button"><img src="/icons/search.svg" style="height: 24px; width: 24px;"></button>
         </div>
+        <button class="voice-search"><img src="/icons/voice-search-icon.svg" style="height: 24px; width: 24px;"></button>
+    </div>
+    <div class="header-right">
+        <button class="create">
+            <img src="/icons/add.jpg" style="width: 17px; height: 17px;">Create
+        </button>
+        <button class="bell">
+            <img src="/icons/notification.jpg" style="width: 24px; height: 24px;">
+        </button>
+        <img class="me" src="/Channel  pics/me.jpg">
     </div>
 </div>
-<div class="video-box">
-    <div>
-        <img class="thumbnail" src="/Youtube-Project/Images/JS interview.jpg">
-    </div>
-    <div>
-        <div class="chan-pics">
-            <img class="profile-pic" src="/Youtube-Project\Channel  pics\JS profile.jpg">
+<div class="vid-grid">
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\kya-tujhe.jpg">
         </div>
-        <div class="vid-details">
-            <p class="vid-title">2.5 Years Experienced Best JavaScript Interview</p>
-            <p class="vid-author">Anurag Singh ProCodrr</p>
-            <p class="vid-stats">402K views &#183; 10 months ago</p>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\Tseries.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">Kya Tujhe Ab FULL VIDEO SONG|SANAM RE</p>
+                <p class="vid-author">T-Series <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">26M views &#183; 9 years ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\JS interview.jpg">
+        </div>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\JS profile.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">2.5 Years Experienced Best JavaScript Interview</p>
+                <p class="vid-author">Anurag Singh ProCodrr <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">402K views &#183; 10 months ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\Asmr-Prog.jpg">
+        </div>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\Asmr.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">ASMR Programming - Coding IOS (IPhone) Dynamic Music - No Talking</p>
+                <p class="vid-author">AsmrProg <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">4.4M views &#183; 2 years ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\Obs-samay.jpg">
+        </div>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\samay.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">HOW TO LIVE STREAM CRASH COURSE ft. My Gym Trainer Pranit</p>
+                <p class="vid-author">Samay Raina <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">311K views &#183; 3 years ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\tatay pr.jpg">
+        </div>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\tatay.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">Transforming 1.4m Smallest Room into DREAM GAMING ROOM SETUP</p>
+                <p class="vid-author">DIY Tatay Dan <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">17M views &#183; 3 years ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-box">
+        <div>
+            <img class="thumbnail" src="Images\Gaming.jpg">
+        </div>
+        <div class="vid-info-grid">
+            <div class="chan-pics">
+                <img class="profile-pic" src="Channel  pics\Tyllusion.jpg">
+            </div>
+            <div class="vid-details">
+                <p class="vid-title">I Built My DREAM PC</p>
+                <p class="vid-author">Tyllusion <i class="fa-solid fa-check-circle"></i></p>
+                <p class="vid-stats">203K views &#183; 2 months ago</p>
+            </div>
         </div>
     </div>
 </div>
