@@ -1,0 +1,45 @@
+.search-box{
+    display: block;
+}
+.video-box{
+    width:325px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+}
+.chan-pics{
+    display: inline-block;
+    width:50px;
+    vertical-align: top;
+}
+.profile-pic{
+    width: 100%;
+    margin-top: 4px ;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.vid-details{
+    display: inline-block;
+    width: 265px;
+    margin-left: 6px;
+}
+.vid-title{
+    margin-top: 1%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.vid-stats{
+    color: rgb(96, 96, 96);
+}
+.vid-author{
+    color: rgb(96, 96, 96);
+    margin-bottom: 3px;
+}
