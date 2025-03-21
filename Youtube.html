@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube</title>
+        <link rel="icon" type="image/svg" href="icons\youpre.svg">
+        <link rel="stylesheet" href="styles\video.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="styles\header.css">
+        <link rel="stylesheet" href="styles\general.css">
+        <link rel="stylesheet" href="styles\sidebar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-left">
+                <img class="hamburger" src="icons\hamburger-menu.svg">   
+                <img class="youtube-logo" src="icons\655462698cf771fc41bd5f1a7e56fa3d0d54271de9fee055ac6c2b0592b32bdb_122x56.webp">     
+            </div>
+            <div class="header-middle">
+                <div class="search-box">
+                    <input class="search" type="text" placeholder="Search">
+                </div>
+                <div class="div-search">
+                    <button class="search-button"><img src="/icons/search.svg" style="height: 24px; width: 24px;"></button>
+                </div>
+                <button class="voice-search"><img src="/icons/voice-search-icon.svg" style="height: 24px; width: 24px;"></button>
+            </div>
+            <div class="header-right">
+                <button class="create">
+                    <img src="/icons/add.jpg" style="width: 17px; height: 17px;">Create
+                </button>
+                <button class="bell">
+                    <img src="/icons/notification.jpg" style="width: 24px; height: 24px;">
+                </button>
+                <img class="me" src="/Channel  pics/me.jpg">
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="first-sidebar">                    <!--first box of sidebar-->
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\home.svg" class="fi-butt-img">
+                        <span class="fi-butt-details" style="font-weight: 500;">Home</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                            <img src="icons\shorts.svg" class="fi-butt-img">
+                            <p class="fi-butt-details">Shorts</p>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si" style=" padding-bottom: 12px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(240,240,240);">
+                            <img src="icons\subscriptions.svg" class="fi-butt-img">
+                            <p class="fi-butt-details">Subscriptions</p>
+                    </div>
+                </button>
+            </div>
+            <div class="second-sidebar">                    <!--second box of sidebar-->
+                <button class="fi-button">
+                    <div style="display:flex; padding-left: 10px;">
+                        <span style="font-size: medium; font-weight:500; font-family: 'Roboto',sans-serif;">You</span>
+                        <img src="icons\greater.svg" style="padding-left: 7px;">
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\his.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">History</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\playlist.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Playlists</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\watch-later.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Watch later</span>
+                    </div>
+                </button>
+                <button class="fi-button" style=" padding-bottom: 50px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(240,240,240);">
+                    <div class="fi-si">
+                        <img src="icons\liked.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Liked videos</span>
+                    </div>
+                </button>
+            </div>
+            <div class="third-sidebar">      <!--Third box of sidebar-->
+                <button class="fi-button">
+                    <div style="display:flex; padding-left: 10px;">
+                        <span style="font-size: medium; font-weight:500; font-family: 'Roboto',sans-serif;">Explore</span>
+                    </div>   
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\trending.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Trending</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\shopping.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Shopping</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\music.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Music</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\movies.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Movies</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\live.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Live</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\gaming.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Gaming</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\news.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">News</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\sports.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Sports</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\courses.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Courses</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\fas.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Fashion & Beauty</span>
+                    </div>
+                </button>
+                <button class="fi-button" style=" padding-bottom: 50px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(240,240,240);">
+                    <div class="fi-si">
+                        <img src="icons\podcast.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Podcasts</span>
+                    </div>
+                </button>
+            </div>
+            <div class="fourth-sidebar">                   <!--Fourth box of sidebar-->
+                <button class="fi-button">
+                    <div style="display:flex; padding-left: 10px;">
+                        <span style="font-size: medium; font-weight:500; font-family: 'Roboto',sans-serif;">More from YouTube</span>
+                    </div>   
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\youpre.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">YouTube Premium</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\youmus.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">YouTube Music</span>
+                    </div>
+                </button>
+                <button class="fi-button" style=" padding-bottom: 50px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(240,240,240);">
+                    <div class="fi-si">
+                        <img src="icons\youki.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">YouTube Kids</span>
+                    </div>
+                </button>
+            </div>
+            <div class="fifth-sidebar">        <!--fifth box of sidebar-->
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\setting.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Settings</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\report.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Report history</span>
+                    </div>
+                </button>
+                <button class="fi-button">
+                    <div class="fi-si">
+                        <img src="icons\help.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Help</span>
+                    </div>
+                </button>
+                <button class="fi-button" style=" padding-bottom: 50px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(240,240,240);">
+                    <div class="fi-si">
+                        <img src="icons\feedback.svg" class="fi-butt-img">
+                        <span class="fi-butt-details">Send feedback</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="vid-grid">
+            <div class="video-box" id="video1">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\kya-tujhe.jpg">
+                    <div class="video-time">
+                        4:22
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Tseries.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Kya Tujhe Ab FULL VIDEO SONG|SANAM RE</p>
+                        <p class="vid-author">T-Series <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">26M views &#183; 9 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video2">
+                <div class="thumbnail-row">
+                    <div class="video-time" style="right: 11px; width: 57px;">
+                        2:03:06
+                    </div>
+                    <img class="thumbnail" src="Images\JS interview.jpg">
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\JS profile.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">2.5 Years Experienced Best JavaScript Interview</p>
+                        <p class="vid-author">Anurag Singh ProCodrr <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">402K views &#183; 10 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video3">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\Asmr-Prog.jpg">
+                    <div class="video-time" style="right: 11px; width: 57px;">
+                        1:29:07
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Asmr.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">ASMR Programming - Coding IOS (IPhone) Dynamic Music - No Talking</p>
+                        <p class="vid-author">AsmrProg <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">4.4M views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video4">
+                <div class="thumbnail-row">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        58:44
+                    </div>
+                    <img class="thumbnail" src="Images\Obs-samay.jpg">
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\samay.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">HOW TO LIVE STREAM CRASH COURSE ft. My Gym Trainer Pranit</p>
+                        <p class="vid-author">Samay Raina <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">311K views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video5">
+                <div class="thumbnail-row">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        10:58
+                    </div>
+                    <img class="thumbnail" src="Images\tatay pr.jpg">
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\tatay.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Transforming 1.4m Smallest Room into DREAM GAMING ROOM SETUP</p>
+                        <p class="vid-author">DIY Tatay Dan <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">17M views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video6">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\Gaming.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        31:29
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Tyllusion.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">I Built My DREAM PC</p>
+                        <p class="vid-author">Tyllusion <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">203K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video7">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\bengali-lofi.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        36:31
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\svf.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Bengali Lofi Jukebox Vol-5 | Bengali Lofi Songs | Lofi Hits</p>
+                        <p class="vid-author">SVF Music <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">551K views &#183; 1 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video8">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\gaming-setup.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        34:07
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Anmol.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">My 2025 Gaming & Editing Desk Setup Tour</p>
+                        <p class="vid-author">Anmol Jaiswal <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">466K views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video9">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\abhi.jpg">
+                    <div class="video-time">
+                        4:31
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\saregama.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Abhi Na Jao Chhod Kar | Audio Song</p>
+                        <p class="vid-author">Saregama Music <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">4.5M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video10">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\harry.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        37:32
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\codewithharry.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Cursor AI Tutorial - My Personal Tips & Tricks (AI Code Editor)</p>
+                        <p class="vid-author">CodeWithHarry <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">349k views &#183; 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video11">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\lego.jpg">
+                    <div class="video-time">
+                        9:26
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Brick.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Making a LEGO Car Cross Broken Bridges...</p>
+                        <p class="vid-author">Brick Machines <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">11M views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video12">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\nasa.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        15:48
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\kxng.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">Building A NASA PC! (1293 FPS)</p>
+                        <p class="vid-author">Kxng <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">1.8M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video13">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\white-pc.jpg">
+                    <div class="video-time">
+                        7:44
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\MZ.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">I9 13900K +990 PRO 2T*3 + IGAME 4090 Vulcan W OC</p>
+                        <p class="vid-author">MZ COMPUTER <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">1.6M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video14">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\speaker.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        21:50
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\Dtek.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">DIY: Portable Bluetooth Android Speaker 4X</p>
+                        <p class="vid-author">DTeK <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">4.9M views &#183; 10 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video15">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\pacify-samay.jpg">
+                    <div class="video-time" style="right: 11px; width: 57px;">
+                        1:29:07
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\samay.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">PACIFY 2 ft. CHOWKDI</p>
+                        <p class="vid-author">Samay Raina <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">884K views &#183; Streamed 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-box" id="video16">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Images\pc-builder.jpg">
+                    <div class="video-time" style="width: 45px; padding-left: 7px;">
+                        39:26
+                    </div>
+                </div>
+                <div class="vid-info-grid">
+                    <div class="chan-pics">
+                        <img class="profile-pic" src="Channel  pics\pcbuilder.jpg">
+                    </div>
+                    <div class="vid-details">
+                        <p class="vid-title">21K BDT Mikrotik PC Build 2024</p>
+                        <p class="vid-author">PC Builder Bangladesh <i class="fa-solid fa-check-circle"></i></p>
+                        <p class="vid-stats">149K views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
