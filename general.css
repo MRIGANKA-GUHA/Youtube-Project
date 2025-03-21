@@ -4,4 +4,7 @@ p{
 }
 body{
     margin: 0;
+    padding-top: 70px;
+    padding-left: 255px;
+    padding-right: 8px;
 }
